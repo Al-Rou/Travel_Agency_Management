@@ -43,8 +43,8 @@ istream& operator>>(istream& in, Date& d)
     in >> ein1 >> c1 >> ein2 >> c2 >> ein3;
     while ((ein2 > 12) || (ein1 > Date::tageInMonaten[ein2-1]) || (ein3 < 1000) || (ein3 > 9999))
     {
-        cout << "Falsche Eingabe!" << endl;
-        cout << "Versuchen Sie noch einmal: ";
+        cout << "Wrong Input!" << endl;
+        cout << "Please try again: ";
         in >> ein1 >> c1 >> ein2 >> c2 >> ein3;
     }
     d.tag = ein1;
