@@ -250,7 +250,7 @@ Hotel::~Hotel()
     cout << ankunftsDatum;
     cout << " for ";
     cout << get_guests();
-    cout << " guests done" << endl;
+    cout << " guests is done" << endl;
 }
 
 class Transport
